@@ -1,0 +1,12 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: #f5f5f5;
+    font-family: 'Open Sans', sans-serif;
+
+}
+header{
+    min-width: 100px;
+    border-bottom: 10px solid #3da5e2;
+}

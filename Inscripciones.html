@@ -1,0 +1,323 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../Nueva carpeta/Css-Js/bootstrap.min.css">
+    <link rel="stylesheet" href="../Nueva carpeta/Css-Js/BarraNavegacion.css">
+    <link rel="stylesheet" href="../Nueva carpeta/Css-Js/InscripcionesV2.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <title>Nueva Inscripcion</title>
+</head>
+
+<body>
+    <header class=" container my-3">
+        <!--Barra de Navegacion-->
+        <div class="nav row g-0 justify-content-between">
+
+            <!--Logo-->
+
+            <div class="logo col-auto d-flex align-items-center ps-4">
+                <img src="../Nueva carpeta/Imagenes/LogoInt-2.png" class="rounded-circle imagen" alt="">
+                <!--Icono-->
+                <div class="icono">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-dot"
+                        viewBox="0 0 16 16">
+                        <path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z" />
+                    </svg>
+                </div>
+                <p class="mb-0">ITSC</p>
+            </div>
+
+            <!--Enlaces-->
+
+            <nav class="menu col-auto d-flex align-items-center">
+                <a href="#" class="c1 px-4  d-flex align-items-center text-center text-white text-decoration-none">
+                    <div class="w-100">
+                        <span>INICIO</span>
+                        <div class="icono">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-briefcase" viewBox="0 0 16 16">
+                                <path
+                                    d="M6.5 1A1.5 1.5 0 0 0 5 2.5V3H1.5A1.5 1.5 0 0 0 0 4.5v8A1.5 1.5 0 0 0 1.5 14h13a1.5 1.5 0 0 0 1.5-1.5v-8A1.5 1.5 0 0 0 14.5 3H11v-.5A1.5 1.5 0 0 0 9.5 1h-3zm0 1h3a.5.5 0 0 1 .5.5V3H6v-.5a.5.5 0 0 1 .5-.5zm1.886 6.914L15 7.151V12.5a.5.5 0 0 1-.5.5h-13a.5.5 0 0 1-.5-.5V7.15l6.614 1.764a1.5 1.5 0 0 0 .772 0zM1.5 4h13a.5.5 0 0 1 .5.5v1.616L8.129 7.948a.5.5 0 0 1-.258 0L1 6.116V4.5a.5.5 0 0 1 .5-.5z" />
+                            </svg>
+                        </div>
+                    </div>
+                </a>
+                <a href="#" class="c2 px-4  d-flex align-items-center text-center text-white text-decoration-none">
+                    <div class="W-100">
+                        <span>Enlace</span>
+                        <div class="icono">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-person-square" viewBox="0 0 16 16">
+                                <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z" />
+                                <path
+                                    d="M2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2zm12 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1v-1c0-1-1-4-6-4s-6 3-6 4v1a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h12z" />
+                            </svg>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="#" class="c3 px-4  d-flex align-items-center text-center text-white text-decoration-none">
+                    <div class="w-100">
+                        <span>Enlace</span>
+                        <div class="icono">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-mailbox" viewBox="0 0 16 16">
+                                <path
+                                    d="M4 4a3 3 0 0 0-3 3v6h6V7a3 3 0 0 0-3-3zm0-1h8a4 4 0 0 1 4 4v6a1 1 0 0 1-1 1H1a1 1 0 0 1-1-1V7a4 4 0 0 1 4-4zm2.646 1A3.99 3.99 0 0 1 8 7v6h7V7a3 3 0 0 0-3-3H6.646z" />
+                                <path
+                                    d="M11.793 8.5H9v-1h5a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.354-.146l-.853-.854zM5 7c0 .552-.448 0-1 0s-1 .552-1 0a1 1 0 0 1 2 0z" />
+                            </svg>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="#" class="btn c4 dropdown-toggle 
+                        px-4 
+                        d-flex 
+                        align-items-center 
+                        text-center 
+                        text-white 
+                        text-decoration 
+                        none" role="button" id="dropmenu" data-bs-toggle="dropdown" aria-expanded="false">Enlace</a>
+
+
+                <ul class="dropdown-menu" aria-labelledby="dropmenu">
+                    <li> <a href="#" class="dropdown-item text-white">
+                            <div class="icono d-inline-flex justify-content-start px-1">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-mailbox" viewBox="0 0 16 16">
+                                    <path
+                                        d="M4 4a3 3 0 0 0-3 3v6h6V7a3 3 0 0 0-3-3zm0-1h8a4 4 0 0 1 4 4v6a1 1 0 0 1-1 1H1a1 1 0 0 1-1-1V7a4 4 0 0 1 4-4zm2.646 1A3.99 3.99 0 0 1 8 7v6h7V7a3 3 0 0 0-3-3H6.646z" />
+                                    <path
+                                        d="M11.793 8.5H9v-1h5a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.354-.146l-.853-.854zM5 7c0 .552-.448 0-1 0s-1 .552-1 0a1 1 0 0 1 2 0z" />
+                                </svg>
+                            </div>
+                            Enlace#1
+                        </a>
+                    </li>
+                    <li> <a href="#" class="dropdown-item text-white">
+                            <div class="icono d-inline-flex justify-content-start px-1">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-mailbox" viewBox="0 0 16 16">
+                                    <path
+                                        d="M4 4a3 3 0 0 0-3 3v6h6V7a3 3 0 0 0-3-3zm0-1h8a4 4 0 0 1 4 4v6a1 1 0 0 1-1 1H1a1 1 0 0 1-1-1V7a4 4 0 0 1 4-4zm2.646 1A3.99 3.99 0 0 1 8 7v6h7V7a3 3 0 0 0-3-3H6.646z" />
+                                    <path
+                                        d="M11.793 8.5H9v-1h5a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.354-.146l-.853-.854zM5 7c0 .552-.448 0-1 0s-1 .552-1 0a1 1 0 0 1 2 0z" />
+                                </svg>
+                            </div>
+                            Enlace#2
+                        </a>
+                    </li>
+                    <li> <a href="#" class="dropdown-item text-white">
+                            <div class="icono d-inline-flex justify-content-start px-1">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-mailbox" viewBox="0 0 16 16">
+                                    <path
+                                        d="M4 4a3 3 0 0 0-3 3v6h6V7a3 3 0 0 0-3-3zm0-1h8a4 4 0 0 1 4 4v6a1 1 0 0 1-1 1H1a1 1 0 0 1-1-1V7a4 4 0 0 1 4-4zm2.646 1A3.99 3.99 0 0 1 8 7v6h7V7a3 3 0 0 0-3-3H6.646z" />
+                                    <path
+                                        d="M11.793 8.5H9v-1h5a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.354-.146l-.853-.854zM5 7c0 .552-.448 0-1 0s-1 .552-1 0a1 1 0 0 1 2 0z" />
+                                </svg>
+                            </div>
+                            Enlace#3
+                        </a>
+                    </li>
+                    <li> <a href="#" class="dropdown-item text-white">
+                            <div class="icono d-inline-flex justify-content-start px-1">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-mailbox" viewBox="0 0 16 16">
+                                    <path
+                                        d="M4 4a3 3 0 0 0-3 3v6h6V7a3 3 0 0 0-3-3zm0-1h8a4 4 0 0 1 4 4v6a1 1 0 0 1-1 1H1a1 1 0 0 1-1-1V7a4 4 0 0 1 4-4zm2.646 1A3.99 3.99 0 0 1 8 7v6h7V7a3 3 0 0 0-3-3H6.646z" />
+                                    <path
+                                        d="M11.793 8.5H9v-1h5a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.354-.146l-.853-.854zM5 7c0 .552-.448 0-1 0s-1 .552-1 0a1 1 0 0 1 2 0z" />
+                                </svg>
+                            </div>
+
+                            Enlace#4
+                        </a>
+                    </li>
+                    <li> <a href="#" class="dropdown-item text-white">
+                            <div class="icono d-inline-flex justify-content-start px-1">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-mailbox" viewBox="0 0 16 16">
+                                    <path
+                                        d="M4 4a3 3 0 0 0-3 3v6h6V7a3 3 0 0 0-3-3zm0-1h8a4 4 0 0 1 4 4v6a1 1 0 0 1-1 1H1a1 1 0 0 1-1-1V7a4 4 0 0 1 4-4zm2.646 1A3.99 3.99 0 0 1 8 7v6h7V7a3 3 0 0 0-3-3H6.646z" />
+                                    <path
+                                        d="M11.793 8.5H9v-1h5a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.354-.146l-.853-.854zM5 7c0 .552-.448 0-1 0s-1 .552-1 0a1 1 0 0 1 2 0z" />
+                                </svg>
+                            </div>
+                            Enlace#5
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <!--Migas de Pan-->
+        <div class="row mt-2">
+            <div class="col-auto">
+                <nav class="migas mt-3" aria-label="camino">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item">
+                            <a href="#" class="B1">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-circle-fill" viewBox="0 0 16 16">
+                                    <circle cx="8" cy="8" r="8" />
+                                </svg>
+                                Inicio
+                            </a>
+                        </li>
+                        <li class="breadcrumb-item">
+                            <a href="#" class="B2">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-circle-fill" viewBox="0 0 16 16">
+                                    <circle cx="8" cy="8" r="8" />
+                                </svg>
+                                Enlace
+                            </a>
+                        </li>
+                        <li class="breadcrumb-item active" aria-current="page">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-circle-fill" viewBox="0 0 16 16">
+                                <circle cx="8" cy="8" r="8" />
+                            </svg>
+                            Enlace#1
+                        </li>
+                    </ol>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <main class="container">
+        <!--Formulario-->
+        <div class="row contenedor justify-content-center ">
+            <div class="col-12 ">
+                <form action="" method="post" class="formulario text-muted ">
+                    <!--seleccion de Carrera/Alumno-->
+                    <div class="row my-2 py-2 datos d-flex justify-content-center">
+                        <h4 class="text-muted text-decoration-underline text-center"> Seleccionar</h4>
+                        <div class="col-7">
+                            <select class="form-select mb-3" aria-label="form-select" name="alumnos" id="alumnos">
+                                <option value="seleccion">Alumno</option>
+                                <option value="1">Uno</option>
+                                <option value="2">dos</option>
+                            </select>
+                        </div>
+                        <div class="col-6">
+                            <select class="form-select mb-3" aria-label="form-select" name="carreras" id="carreras">
+                                <option value="seleccion">Carrera</option>
+                                <option value="1"> carrera Uno</option>
+                                <option value="2"> carrera dos</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <!--Documentación-->
+                    <div class="row my-3 py-2 datos  justify-content-between">
+                        <h4 class="text-muted text-center text-decoration-underline">Documentación</h4>
+                        <div class="col-6 checkbox">
+                            <div class="form-check form-switch mb-3">
+                                <input type="checkbox" class="form-check-input" role="switch" id="check1">
+                                <label for="check1" class="form-check-label">Fotocopia del Documento (x2)</label>
+                            </div>
+                            <div class="form-check form-switch mb-3">
+                                <input type="checkbox" class="form-check-input" role="switch" id="check2">
+                                <label for="check2" class="form-check-label">Fotocopia del Analítico del Secundario</label>
+                            </div>
+                        </div>
+                        <div class="col-6 checkbox">
+                            <div class="form-check form-switch mb-3">
+                                <input type="checkbox" class="form-check-input" role="switch" id="check3">
+                                <label for="check3" class="form-check-label">Fotocopia del Título del Secundario</label>
+                            </div>
+                            <div class="form-check form-switch mb-3">
+                                <input type="checkbox" class="form-check-input" role="switch" id="check4">
+                                <label for="check4" class="form-check-label">Examen de Nivelación</label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--Cooperadora-->
+                    <div class="row my-2 py-2  datos d-flex justify-content-center">
+                        <h4 class="text-muted text-center text-decoration-underline">Cooperadora</h4>
+                         <!--Estado-->
+                         <div class="col-3">
+                            <select class="form-select mb-3" aria-label="form-select" name="estado" id="estado">
+                                <option value="seleccion">Estado</option>
+                                <option value="1">Deuda</option>
+                                <option value="2">Completo</option>
+                            </select>
+                        </div>
+                        <!--Valor de la Cooperadora-->
+                        <div class="col-2">
+                            <div class="form-floating mb-6">
+                                <input type="text" name="CoopTotal" id="CoopTotal" class="form-control"
+                                    placeholder="Ej:john Doe" data-bs-toggle="tooltip" data-bs-placement="top"
+                                    title=" CoopTotal de la sede">
+                                <label for="CoopTotal">Total de la Cooperadora</label>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Botones-->
+                    <div class="row justify-content-center py-3 barraBotones">
+                        <div class="col-6 d-flex justify-content-center align-items-center">
+                            <button type="button" class="btn BtnGuardar mx-3" data-bs-toggle="modal"
+                                data-bs-target="#staticBackdrop">Guardar</button>
+
+                            <button type="button" class="btn BtnCancelar mx-3" data-bs-toggle="modal"
+                                data-bs-target="#modalcancelar">Cancelar</button>
+                        </div>
+                    </div>
+                    <!--Modal Guardar-->
+                    <div class="modal fade Vmodal" id="staticBackdrop" data-bs-backdrop="static"
+                        data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="staticBackdropLabel">¿Desea Guardar?</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    Esta a punto de guardar los datos escritos hasta ahora, no se olvide de revisar bien
+                                    todo ¿Desea Continuar?
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cerrar</button>
+                                    <button type="submit" class="btn  btn-primary">Si, deseo Continuar</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Modal Cancelar-->
+                    <div class="modal fade Vmodal" id="modalcancelar" data-bs-keyboard="false" tabindex="-1"
+                        aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="staticBackdropLabel">¿Desea Cancelar?</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    Todos los datos escritos hasta ahora se perderan y sera redirigido a la ventana
+                                    princip, ¿Seguro que desea Cancelar?
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn  btn-primary">Continuar editando</button>
+                                    <a href="../Nueva carpeta/Index.html" type="button" class="btn btn-danger">Si, deseo Cancelar</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </main>
+    <script src="../Nueva carpeta/Css-Js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

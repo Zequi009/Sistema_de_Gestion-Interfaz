@@ -1,0 +1,118 @@
+/*Header*/
+    /*Navegacion*/
+header .nav {
+    min-height: 80px;
+    overflow: hidden;
+    background: #3481ab;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+    /*Logo*/
+header .logo .imagen {
+    height: 63px;
+    width: 60px;
+}
+header .logo .icono {
+    color: #bfbfbf;
+}
+header.logo svg {
+    width: 20px;
+    height: 20px;
+}
+header .logo p {
+    color: #f2f2f2;
+}
+
+    /*Menu*/
+header .menu .c1 {
+    background: #357798;
+    margin: 1px;
+    height: 65px;
+    border: 1px solid #bfbfbf;
+    border-radius: 10px;
+}
+header .menu .c2 {
+    background: #246686;
+    margin: 1px;
+    height: 65px;
+    border: 1px solid #bfbfbf;
+    border-radius: 10px;
+}
+header .menu .c3 {
+    background: #125675;
+    margin: 1px;
+    height: 65px;
+    border: 1px solid #bfbfbf;
+    border-radius: 10px;
+}
+header .menu .c4 {
+    background: #004563;
+    margin: 1px;
+    height: 65px;
+    border: 1px solid #bfbfbf;
+    border-radius: 10px;
+}
+
+header .menu .c1:hover {
+    background: #2498e6;
+    box-shadow: 3px 5px 10px #332f2c;
+    transform: translateY(-5px);
+    border-radius: 10px;
+}
+header .menu .c2:hover {
+    background: #00426a;
+    box-shadow: 3px 5px 10px #332f2c;
+    transform: translateY(-5px);
+    border-radius: 10px;
+}
+header .menu .c3:hover {
+    background: #002d44;
+    box-shadow: 3px 5px 10px #332f2c;
+    transform: translateY(-5px);
+    border-radius: 10px;
+}
+header .menu .c4:hover{
+    background: #002d44;
+    box-shadow: 3px 5px 10px #332f2c;
+    transform: translateY(-5px);
+    border-radius: 10px;
+
+}
+
+header .menu ul {
+    font-family: 'Open Sans', sans-serif;
+    background: #437894;
+}
+
+
+header .menu ul .dropdown-item {
+    text-decoration: underline 0.15em rgba(255, 255, 255, 0);
+    transition: text-decoration-color 300ms;
+}
+header .menu ul .dropdown-item:hover {
+    background: #002d44;
+    text-decoration-color: #bfbfbf;
+}
+
+/*Migas de Pan*/
+.container .migas{
+    --bs-breadcrumb-divider:'>';
+}
+.container .migas .breadcrumb .breadcrumb-item a{
+    font-family: 'Open Sans',sans-serif;
+    color:#004563;
+    text-decoration: none;
+}
+.container nav .breadcrumb .breadcrumb-item a:hover{
+    color: #2498e6;
+}
+
+    /*Icono-Punto*/
+.container .migas .breadcrumb .breadcrumb-item a .bi{
+    height: 6px;
+    padding: 0px;
+}
+.container .migas .breadcrumb .breadcrumb-item .bi{
+    height: 6px;
+    padding-right: 0px;
+}

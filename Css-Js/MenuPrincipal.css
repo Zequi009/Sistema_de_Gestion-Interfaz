@@ -1,0 +1,17 @@
+html{
+    scroll-behavior: smooth;
+}
+
+.menu{
+    font-family: 'Open Sans', sans-serif;
+}
+/*Botones del Menu*/
+.menu .btn1{
+    font-size: 25px;
+    background: #357798 ;
+    color: #fff;
+    border-radius: 10px;
+    width: 300px;
+    height: 60px;
+    border: 1px solid #000;
+}
